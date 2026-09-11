@@ -15,9 +15,9 @@ header p {
     font-size: 23px;
     color: rgb(34, 219, 74);
 }
-#gol2004 {
+.car {
     background-color: rgba(179, 211, 65, 0.566);
-    margin: 30px;
+    margin: 50px;
      border-radius: 20px;
 }
 h2 {
