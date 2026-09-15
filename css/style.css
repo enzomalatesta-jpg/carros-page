@@ -19,6 +19,10 @@ header p {
     background-color: rgba(179, 211, 65, 0.566);
     margin: 50px;
      border-radius: 20px;
+     padding: 15px;
+     width: 32%;
+     text-align: center;
+     flex-direction: row;
 }
 h2 {
     text-align: center;
@@ -27,58 +31,28 @@ h2 {
     background-color: rgba(211, 65, 65, 0.651);
     border-radius: 20px;
 }
-h3 {
-    font-size: 45px;
-    color: rgb(212, 24, 71);
-}
-
-.dados-carro {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    padding: 10px;
-}
-
 .img-carro img {
     border-radius: 20px;
-     width: 600px;
-    height: 450px;
+     width: 350px;
+    height: 300px;
 }
-
-.contato {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-right: 200px;
-    align-items: flex-end
-}
-
-.contato p {
-    background-color: green;
-    color: white;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 20px;
-    width: 100px;
-    text-align: center;
-}
-
-.contato small {
-    color: rgb(0, 0, 0);
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 10px;
-    border-radius: 20px;
-    width: 100px;
-    text-align: center;
-}
-.letra p {
-    font-size: 25px;
+.img-carro {
+    font-size: 30px;
+        background-color: rgba(179, 211, 65, 0.566);
+    margin: 50px;
+      border-radius: 20px;
+     padding: 15px;
+     width: 32%;
+     text-align: center;
+     flex-direction: row;
 }
 body {
     background-color: rgba(160, 210, 219, 0.589);
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 footer {
     background-color: rgba(180, 124, 71, 0.589);
@@ -88,4 +62,7 @@ footer {
     align-items: flex-start;
     flex-direction: row;
     padding: 10px;
+}
+h3 {
+    text-align: center;
 }
